@@ -3,10 +3,10 @@ import numpy as np
 import pandas as pd
 import pickle
 
-with open('final_model_xgb.pkl','wb') as file:
+with open('final_model_xgb.pkl','rb') as file:
     model=pickle.load(file)
 
-with open('transformer.pkl','wb') as file:
+with open('transformer.pkl','rb') as file:
     pt=pickle.load(file)
 
 # [lt_t,mst,spcl,price_t,adults,wkd,park,wk,month,day,weekd]
