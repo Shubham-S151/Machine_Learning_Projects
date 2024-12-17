@@ -33,11 +33,11 @@ def main():
     day=st.slider('What will be the Day of Arival?',min_value=1,max_value=31,step=1)
     wkday_lambda=(lambda x:0 if x=='Mon' else 1 if x=='Tue' else 2 if x=='Wed' else 3 if x=='Thrus' else 4 if x=='Fri' else 5 if x=='Sat' else 6)
     wkday=wkday_lambda(st.selectbox('What is the Weekday of arival?'['Mon','Tue','Wed','Thrus','Fri','Sat','Sun']))
-    tran_data=pt.transform([[lt,price]])[0]
+    tran_data=pt.transform([[float(lt),float(price)]])[0]
     lt_t=tran_data[0]
     price_t=tran_data[1]
 
-    inp_list=[lt,mst,spcl,price_t,adults,wkd,park,wk,month,day,wkday]
+    inp_list=[lt_t,mst,spcl,price_t,adults,wkd,park,wk,month,day,wkday]
 
     if st.button('Predict'):
         response=prediction(inp_list)
