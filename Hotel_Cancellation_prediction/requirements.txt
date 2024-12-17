@@ -1,4 +1,3 @@
 xgboost
 streamlit
-pickle
 scikit-learn
