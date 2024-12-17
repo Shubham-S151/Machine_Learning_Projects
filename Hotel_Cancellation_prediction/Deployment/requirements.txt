@@ -1,2 +1,3 @@
 xgboost
 streamlit
+scikit-learn
