@@ -5,4 +5,4 @@ This repo contains Machine Learning Projects
 3. Big Mart sales Prediction ([click_here](https://github.com/Shubham-S151/Machine_Learning/blob/main/Big_mart%20sales%20case%20study.ipynb))
 4. Hotel INN Cancellation Prediction ([click_here](https://github.com/Shubham-S151/Machine_Learning/blob/main/Hotel%20cancellation%20case%20study.ipynb)).
 To use the app [Click_Here](https://hotel-inn-cancellation-prediction.streamlit.app/)
-5. Country Segmentation for NGO by socio-economic factors.To use the app [Click_Here](https://ngo-customer-segmentation-by-socioeconomic-status.streamlit.app/)
+5. Country Segmentation for NGO by socio-economic factors([click_here](https://github.com/Shubham-S151/Machine_Learning/blob/main/country%20data%20segmentation%20using%20socio%20economic%20factors.ipynb)).To use the app [Click_Here](https://ngo-customer-segmentation-by-socioeconomic-status.streamlit.app/)
